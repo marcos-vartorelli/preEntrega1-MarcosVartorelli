@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family:Ruthligos;
+    src: url(/fonts/Ruthligos.ttf);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(153, 151, 146);
+    padding: 20px;
+    font-size: 22px;
+    
+}
+
+.logo{
+    color: #db607f;
+    float: left;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ecc8c8;
+    font-family:Ruthligos;
+    margin: 10px;
+}
+
+.barra{
+    float: right;
+    
+}
+
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.barra a:hover{
+    color: rgb(126, 4, 89);
+} 
+
+.fondo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/multimedia/istockphoto-1267640797-1024x1024.jpg);
+    background-size: cover; 
+    background-position:center center;
+}
+
+h1{
+    color: #f7e6f0;
+    text-align: center;
+    font-size: 150px;
+}
+
+h2{
+    color: #db607f;
+    text-align: center;
+    font-size: 150px;
+    font-family:Ruthligos; 
+}
+
+h3{
+    color: #db607f;
+    text-align: center;
+    font-size: 50px;
+
+}
+.trata1{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: indianred;
+    border-color: black;
+    display:inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.trata1 img{
+    width: 100%;
+    height: auto;
+}
+.produ{
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: indianred;
+    border-color: black;
+    display:inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.produ img{
+    width: 100%;
+    height: auto;
+}
+
+.nosotrosFondo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/multimedia/istockphoto-1226861453-1024x1024.jpg);
+    background-size: cover; 
+    background-position:center center;
+    color: #db607f;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding: 30px;
+
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+    padding: 50px;
+    
+}
+p{
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.mapa{
+    width: 40%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: indianred;
+    display:inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.form{
+    width: 40%;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: indianred;
+    display:inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(153, 151, 146);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.redes a{
+    color: #db607f;
+    text-decoration: none;
+    font-size: 40px;
+
+
+}
